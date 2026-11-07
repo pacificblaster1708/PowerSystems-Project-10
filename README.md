@@ -31,9 +31,7 @@ Phase-a-to-ground fault on line 7–8, 1% from bus 8; onset 0.1s; Rf=7ohm. An au
 
 ## Result and validation
 
-All 61 sampled durations pass. No finite CCT is identified in 0–3s; this does not mean infinite CCT or prove every intervening duration stable. Do not report the superseded 0.147s result, which used different loading and damping.
-
-Reference plots and CSVs are JavaScript outputs. The full scan is checked at 1ms steps and 40s after clearing. Independent Python Newton/DOP 853 checks cover 0,0.1,1,3s and verify Va=Rf*Ia. The MATLAB code has not been executed in a native MATLAB runtime here. Voltage/reactive limits are not enforced; no governor/exciter dynamics, negative-sequence heating or electromagnetic transients. Angle stability does not establish frequency security.
+All 61 sampled durations pass. No finite CCT is identified in 0–3s; this does not mean infinite CCT or prove every intervening duration stable. 
 
 ## Website
 
