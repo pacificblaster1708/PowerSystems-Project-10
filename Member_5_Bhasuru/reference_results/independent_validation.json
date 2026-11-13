@@ -1,0 +1,30 @@
+{
+  "independent_method": "Newton power flow + DOP853 adaptive integration",
+  "power_flow_mismatch_pu": 6.109720341003978e-13,
+  "slg_boundary_residual_pu": 1.2118257228641695e-16,
+  "Pm_pu": [
+    0.6699999999999359,
+    1.6299999999999135,
+    0.849999999999923
+  ],
+  "cases": {
+    "0": {
+      "stable": true,
+      "end_time": 20.1
+    },
+    "0.1": {
+      "stable": true,
+      "end_time": 20.2
+    },
+    "1": {
+      "stable": true,
+      "end_time": 21.1
+    },
+    "3": {
+      "stable": true,
+      "end_time": 23.1
+    }
+  },
+  "original_loading_3s_stable": true,
+  "native_matlab_executed": false
+}

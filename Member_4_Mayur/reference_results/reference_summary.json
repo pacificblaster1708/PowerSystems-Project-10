@@ -1,0 +1,464 @@
+{
+  "name": "Mayur Soni",
+  "roll": "240002037",
+  "group": 4,
+  "member": 4,
+  "projectLead": "Akarsh J",
+  "engine": "MATLAB",
+  "rf_ohm": 7,
+  "loadScale": 1,
+  "onset_s": 0.1,
+  "dt_s": 0.002,
+  "postclear_observation_s": 20,
+  "threshold_deg": 360,
+  "cct": {
+    "status": "no-boundary",
+    "lower": 2.9999999999999973,
+    "upper": null
+  },
+  "baseline": {
+    "loadScale": 1,
+    "status": "no-boundary",
+    "lastScannedDuration": 2.9999999999999973
+  },
+  "halfstep": {
+    "lower": 2.9999999999999973,
+    "upper": null
+  },
+  "longerHorizon": {
+    "lower": 2.9999999999999973,
+    "upper": null
+  },
+  "powerFlowMismatch": 9.510880971674851e-11,
+  "initialAcceleration": 0,
+  "pm_pu": [
+    0.6700000003233003,
+    1.6299999998527603,
+    0.8499999998437302
+  ],
+  "zbase_ohm": 1190.25,
+  "rf_pu": 0.0058811174123083385,
+  "z2": [
+    0.010498707045249791,
+    0.09150732687613095
+  ],
+  "z0": [
+    0,
+    0.05474092960947451
+  ],
+  "busVoltages": [
+    {
+      "bus": 1,
+      "vm": 1,
+      "angle_deg": 0
+    },
+    {
+      "bus": 2,
+      "vm": 1,
+      "angle_deg": 10.022842833407694
+    },
+    {
+      "bus": 3,
+      "vm": 1.0000000000000002,
+      "angle_deg": 5.1351865171466216
+    },
+    {
+      "bus": 4,
+      "vm": 0.9934298939045492,
+      "angle_deg": -2.226342555145914
+    },
+    {
+      "bus": 5,
+      "vm": 0.9913430886270865,
+      "angle_deg": -3.7544004203219146
+    },
+    {
+      "bus": 6,
+      "vm": 1.0016640599822146,
+      "angle_deg": 2.2848493729355654
+    },
+    {
+      "bus": 7,
+      "vm": 0.9876964937251206,
+      "angle_deg": 0.9102097690848295
+    },
+    {
+      "bus": 8,
+      "vm": 0.9922764501193736,
+      "angle_deg": 4.130018458171802
+    },
+    {
+      "bus": 9,
+      "vm": 0.9735564827767362,
+      "angle_deg": -4.163085630386822
+    }
+  ],
+  "sweep": [
+    {
+      "duration": 0,
+      "stable": true,
+      "maxSpread": 54.26404387159596,
+      "endTime": 20.09999999999974
+    },
+    {
+      "duration": 0.05,
+      "stable": true,
+      "maxSpread": 54.83284315316582,
+      "endTime": 20.14999999999971
+    },
+    {
+      "duration": 0.1,
+      "stable": true,
+      "maxSpread": 56.42270810701388,
+      "endTime": 20.199999999999683
+    },
+    {
+      "duration": 0.15000000000000002,
+      "stable": true,
+      "maxSpread": 58.81929482495692,
+      "endTime": 20.249999999999655
+    },
+    {
+      "duration": 0.2,
+      "stable": true,
+      "maxSpread": 61.84101277822204,
+      "endTime": 20.299999999999628
+    },
+    {
+      "duration": 0.25,
+      "stable": true,
+      "maxSpread": 65.43799392196289,
+      "endTime": 20.3499999999996
+    },
+    {
+      "duration": 0.3,
+      "stable": true,
+      "maxSpread": 69.02649052949859,
+      "endTime": 20.399999999999572
+    },
+    {
+      "duration": 0.35,
+      "stable": true,
+      "maxSpread": 72.69278460075357,
+      "endTime": 20.449999999999545
+    },
+    {
+      "duration": 0.39999999999999997,
+      "stable": true,
+      "maxSpread": 75.75971431632261,
+      "endTime": 20.499999999999517
+    },
+    {
+      "duration": 0.44999999999999996,
+      "stable": true,
+      "maxSpread": 78.08428588355112,
+      "endTime": 20.54999999999949
+    },
+    {
+      "duration": 0.49999999999999994,
+      "stable": true,
+      "maxSpread": 79.5484150209395,
+      "endTime": 20.59999999999946
+    },
+    {
+      "duration": 0.5499999999999999,
+      "stable": true,
+      "maxSpread": 80.0759693242432,
+      "endTime": 20.649999999999434
+    },
+    {
+      "duration": 0.6,
+      "stable": true,
+      "maxSpread": 79.59893335599848,
+      "endTime": 20.699999999999406
+    },
+    {
+      "duration": 0.65,
+      "stable": true,
+      "maxSpread": 78.6790989034966,
+      "endTime": 20.74999999999938
+    },
+    {
+      "duration": 0.7000000000000001,
+      "stable": true,
+      "maxSpread": 76.87365425679636,
+      "endTime": 20.79999999999935
+    },
+    {
+      "duration": 0.7500000000000001,
+      "stable": true,
+      "maxSpread": 74.47549077973346,
+      "endTime": 20.849999999999323
+    },
+    {
+      "duration": 0.8000000000000002,
+      "stable": true,
+      "maxSpread": 71.64663157695243,
+      "endTime": 20.899999999999295
+    },
+    {
+      "duration": 0.8500000000000002,
+      "stable": true,
+      "maxSpread": 68.5368236751653,
+      "endTime": 20.949999999999267
+    },
+    {
+      "duration": 0.9000000000000002,
+      "stable": true,
+      "maxSpread": 65.47546305709996,
+      "endTime": 20.99999999999924
+    },
+    {
+      "duration": 0.9500000000000003,
+      "stable": true,
+      "maxSpread": 62.73437503599578,
+      "endTime": 21.049999999999212
+    },
+    {
+      "duration": 1.0000000000000002,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 21.099999999999184
+    },
+    {
+      "duration": 1.0500000000000003,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 21.149999999999157
+    },
+    {
+      "duration": 1.1000000000000003,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 21.19999999999913
+    },
+    {
+      "duration": 1.1500000000000004,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 21.2499999999991
+    },
+    {
+      "duration": 1.2000000000000004,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 21.299999999999073
+    },
+    {
+      "duration": 1.2500000000000004,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 21.349999999999046
+    },
+    {
+      "duration": 1.3000000000000005,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 21.399999999999018
+    },
+    {
+      "duration": 1.3500000000000005,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 21.45
+    },
+    {
+      "duration": 1.4000000000000006,
+      "stable": true,
+      "maxSpread": 63.57632306024577,
+      "endTime": 21.5
+    },
+    {
+      "duration": 1.4500000000000006,
+      "stable": true,
+      "maxSpread": 67.45006177929639,
+      "endTime": 21.55
+    },
+    {
+      "duration": 1.5000000000000007,
+      "stable": true,
+      "maxSpread": 71.63079763332135,
+      "endTime": 21.6
+    },
+    {
+      "duration": 1.5500000000000007,
+      "stable": true,
+      "maxSpread": 75.262774369616,
+      "endTime": 21.650000000000002
+    },
+    {
+      "duration": 1.6000000000000008,
+      "stable": true,
+      "maxSpread": 78.14783766246266,
+      "endTime": 21.7
+    },
+    {
+      "duration": 1.6500000000000008,
+      "stable": true,
+      "maxSpread": 80.35206760498241,
+      "endTime": 21.75
+    },
+    {
+      "duration": 1.7000000000000008,
+      "stable": true,
+      "maxSpread": 81.22893667567536,
+      "endTime": 21.8
+    },
+    {
+      "duration": 1.7500000000000009,
+      "stable": true,
+      "maxSpread": 81.10708744549007,
+      "endTime": 21.85
+    },
+    {
+      "duration": 1.800000000000001,
+      "stable": true,
+      "maxSpread": 79.71228894884686,
+      "endTime": 21.900000000000002
+    },
+    {
+      "duration": 1.850000000000001,
+      "stable": true,
+      "maxSpread": 77.49202163282051,
+      "endTime": 21.950000000000003
+    },
+    {
+      "duration": 1.900000000000001,
+      "stable": true,
+      "maxSpread": 74.53541194870749,
+      "endTime": 22
+    },
+    {
+      "duration": 1.950000000000001,
+      "stable": true,
+      "maxSpread": 71.01022119109163,
+      "endTime": 22.05
+    },
+    {
+      "duration": 2.000000000000001,
+      "stable": true,
+      "maxSpread": 67.07326031622348,
+      "endTime": 22.1
+    },
+    {
+      "duration": 2.0500000000000007,
+      "stable": true,
+      "maxSpread": 63.91013845588527,
+      "endTime": 22.150000000000002
+    },
+    {
+      "duration": 2.1000000000000005,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 22.2
+    },
+    {
+      "duration": 2.1500000000000004,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 22.25
+    },
+    {
+      "duration": 2.2,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 22.3
+    },
+    {
+      "duration": 2.25,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 22.35
+    },
+    {
+      "duration": 2.3,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 22.4
+    },
+    {
+      "duration": 2.3499999999999996,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 22.45
+    },
+    {
+      "duration": 2.3999999999999995,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 22.5
+    },
+    {
+      "duration": 2.4499999999999993,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 22.55
+    },
+    {
+      "duration": 2.499999999999999,
+      "stable": true,
+      "maxSpread": 62.23853629451258,
+      "endTime": 22.599999999999998
+    },
+    {
+      "duration": 2.549999999999999,
+      "stable": true,
+      "maxSpread": 63.554943999998244,
+      "endTime": 22.65
+    },
+    {
+      "duration": 2.5999999999999988,
+      "stable": true,
+      "maxSpread": 66.62619616414695,
+      "endTime": 22.7
+    },
+    {
+      "duration": 2.6499999999999986,
+      "stable": true,
+      "maxSpread": 70.27565644109991,
+      "endTime": 22.75
+    },
+    {
+      "duration": 2.6999999999999984,
+      "stable": true,
+      "maxSpread": 73.79425704121017,
+      "endTime": 22.799999999999997
+    },
+    {
+      "duration": 2.7499999999999982,
+      "stable": true,
+      "maxSpread": 76.87794948576119,
+      "endTime": 22.849999999999998
+    },
+    {
+      "duration": 2.799999999999998,
+      "stable": true,
+      "maxSpread": 79.30961388983032,
+      "endTime": 22.9
+    },
+    {
+      "duration": 2.849999999999998,
+      "stable": true,
+      "maxSpread": 80.67393326177968,
+      "endTime": 22.95
+    },
+    {
+      "duration": 2.8999999999999977,
+      "stable": true,
+      "maxSpread": 81.25974122676674,
+      "endTime": 22.999999999999996
+    },
+    {
+      "duration": 2.9499999999999975,
+      "stable": true,
+      "maxSpread": 80.6013568587785,
+      "endTime": 23.049999999999997
+    },
+    {
+      "duration": 2.9999999999999973,
+      "stable": true,
+      "maxSpread": 78.8328557845921,
+      "endTime": 23.099999999999998
+    }
+  ]
+}
